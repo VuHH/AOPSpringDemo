@@ -1,0 +1,57 @@
+2024-10-03T10:23:22.334+07:00  INFO 14884 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Starting AopDemoApplication using Java 22.0.2 with PID 14884 (D:\Workspace\Java\AOPSrpingDemo\target\classes started by Admin in D:\Workspace\Java\AOPSrpingDemo)
+2024-10-03T10:23:22.336+07:00  INFO 14884 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-10-03T10:23:23.335+07:00  INFO 14884 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-03T10:23:23.349+07:00  INFO 14884 --- [AOPDemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-03T10:23:23.350+07:00  INFO 14884 --- [AOPDemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-03T10:23:23.406+07:00  INFO 14884 --- [AOPDemo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-03T10:23:23.406+07:00  INFO 14884 --- [AOPDemo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1021 ms
+2024-10-03T10:23:23.875+07:00  INFO 14884 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-03T10:23:23.881+07:00  INFO 14884 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Started AopDemoApplication in 2.033 seconds (process running for 2.405)
+2024-10-03T10:23:39.571+07:00  INFO 14884 --- [AOPDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T10:23:39.571+07:00  INFO 14884 --- [AOPDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-03T10:23:39.572+07:00  INFO 14884 --- [AOPDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-03T10:23:39.600+07:00  INFO 14884 --- [AOPDemo] [http-nio-8080-exec-1] com.demo.demo.service.ProductService     : Adding product: laptop
+2024-10-03T10:25:04.699+07:00  INFO 19580 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Starting AopDemoApplication using Java 22.0.2 with PID 19580 (D:\Workspace\Java\AOPSrpingDemo\target\classes started by Admin in D:\Workspace\Java\AOPSrpingDemo)
+2024-10-03T10:25:04.701+07:00  INFO 19580 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-10-03T10:25:05.312+07:00 DEBUG 19580 --- [AOPDemo] [main] .s.a.a.a.ReflectiveAspectJAdvisorFactory : Found AspectJ method: public void com.demo.demo.aop.LoggingAspect.logBeforeMethod(org.aspectj.lang.JoinPoint)
+2024-10-03T10:25:05.313+07:00 DEBUG 19580 --- [AOPDemo] [main] .s.a.a.a.ReflectiveAspectJAdvisorFactory : Found AspectJ method: public void com.demo.demo.aop.LoggingAspect.logAfterReturningMethod(org.aspectj.lang.JoinPoint,java.lang.Object)
+2024-10-03T10:25:05.711+07:00  INFO 19580 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-03T10:25:05.725+07:00  INFO 19580 --- [AOPDemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-03T10:25:05.725+07:00  INFO 19580 --- [AOPDemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-03T10:25:05.778+07:00  INFO 19580 --- [AOPDemo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-03T10:25:05.778+07:00  INFO 19580 --- [AOPDemo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1028 ms
+2024-10-03T10:25:06.276+07:00  INFO 19580 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-03T10:25:06.283+07:00  INFO 19580 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Started AopDemoApplication in 2.078 seconds (process running for 2.389)
+2024-10-03T10:25:36.260+07:00  INFO 7856 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Starting AopDemoApplication using Java 22.0.2 with PID 7856 (D:\Workspace\Java\AOPSrpingDemo\target\classes started by Admin in D:\Workspace\Java\AOPSrpingDemo)
+2024-10-03T10:25:36.261+07:00  INFO 7856 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-10-03T10:25:36.846+07:00 DEBUG 7856 --- [AOPDemo] [main] .s.a.a.a.ReflectiveAspectJAdvisorFactory : Found AspectJ method: public void com.demo.demo.aop.LoggingAspect.logBeforeMethod(org.aspectj.lang.JoinPoint)
+2024-10-03T10:25:36.847+07:00 DEBUG 7856 --- [AOPDemo] [main] .s.a.a.a.ReflectiveAspectJAdvisorFactory : Found AspectJ method: public void com.demo.demo.aop.LoggingAspect.logAfterReturningMethod(org.aspectj.lang.JoinPoint,java.lang.Object)
+2024-10-03T10:25:37.247+07:00  INFO 7856 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-03T10:25:37.259+07:00  INFO 7856 --- [AOPDemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-03T10:25:37.259+07:00  INFO 7856 --- [AOPDemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-03T10:25:37.306+07:00  INFO 7856 --- [AOPDemo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-03T10:25:37.307+07:00  INFO 7856 --- [AOPDemo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2024-10-03T10:25:37.837+07:00  INFO 7856 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-03T10:25:37.845+07:00  INFO 7856 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Started AopDemoApplication in 2.049 seconds (process running for 2.365)
+2024-10-03T10:25:41.818+07:00  INFO 7856 --- [AOPDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T10:25:41.818+07:00  INFO 7856 --- [AOPDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-03T10:25:41.819+07:00  INFO 7856 --- [AOPDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-03T10:25:41.852+07:00  INFO 7856 --- [AOPDemo] [http-nio-8080-exec-1] com.demo.demo.service.ProductService     : Adding product: laptop
+2024-10-03T10:30:59.784+07:00  INFO 22184 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Starting AopDemoApplication using Java 22.0.2 with PID 22184 (D:\Workspace\Java\AOPSrpingDemo\target\classes started by Admin in D:\Workspace\Java\AOPSrpingDemo)
+2024-10-03T10:30:59.787+07:00  INFO 22184 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-10-03T10:31:00.394+07:00 DEBUG 22184 --- [AOPDemo] [main] .s.a.a.a.ReflectiveAspectJAdvisorFactory : Found AspectJ method: public void com.demo.demo.aop.LoggingAspect.logBeforeMethod(org.aspectj.lang.JoinPoint)
+2024-10-03T10:31:00.395+07:00 DEBUG 22184 --- [AOPDemo] [main] .s.a.a.a.ReflectiveAspectJAdvisorFactory : Found AspectJ method: public void com.demo.demo.aop.LoggingAspect.logAfterReturningMethod(org.aspectj.lang.JoinPoint,java.lang.Object)
+2024-10-03T10:31:00.800+07:00  INFO 22184 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-03T10:31:00.814+07:00  INFO 22184 --- [AOPDemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-03T10:31:00.815+07:00  INFO 22184 --- [AOPDemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-03T10:31:00.864+07:00  INFO 22184 --- [AOPDemo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-03T10:31:00.864+07:00  INFO 22184 --- [AOPDemo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1033 ms
+2024-10-03T10:31:01.407+07:00  INFO 22184 --- [AOPDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-03T10:31:01.415+07:00  INFO 22184 --- [AOPDemo] [main] com.demo.demo.AopDemoApplication         : Started AopDemoApplication in 2.095 seconds (process running for 2.432)
+2024-10-03T10:31:07.046+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-03T10:31:07.047+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-03T10:31:07.047+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-03T10:31:07.090+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] com.demo.demo.aop.LoggingAspect          : Before method: addProduct
+2024-10-03T10:31:07.091+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] com.demo.demo.service.ProductService     : Adding product: laptop
+2024-10-03T10:31:07.091+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] com.demo.demo.aop.LoggingAspect          : After method: addProduct
+2024-10-03T10:31:07.092+07:00  INFO 22184 --- [AOPDemo] [http-nio-8080-exec-1] com.demo.demo.aop.LoggingAspect          : Method returned value: Add Product with productName:laptop
